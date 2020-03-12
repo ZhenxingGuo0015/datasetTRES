@@ -1,0 +1,10 @@
+Package: datasetTRES
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Zhenxing Guo
+Maintainer: The package maintainer <zguo59@emory.edu>
+Description: Prepare datasets for Package "TRES"
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
