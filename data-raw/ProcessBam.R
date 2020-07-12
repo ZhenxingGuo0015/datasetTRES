@@ -12,14 +12,14 @@ read.BAM <- function(fn){
 }
 
 
-cb_6wk_input_rep1_chr19 = read.BAM("../inst/extdata/cb_6wk_input_rep1_chr19.bam")
-cb_6wk_ip_rep1_chr19 = read.BAM("../inst/extdata/cb_6wk_ip_rep1_chr19.bam")
+cb_6wk_input_rep1_chr19 = read.BAM("../inst/extdata/cb_input_rep1_chr19.bam")
+cb_6wk_ip_rep1_chr19 = read.BAM("../inst/extdata/cb_ip_rep1_chr19.bam")
 
-cb_6wk_input_rep2_chr19 = read.BAM("../inst/extdata/cb_6wk_input_rep2_chr19.bam")
-cb_6wk_ip_rep2_chr19 = read.BAM("../inst/extdata/cb_6wk_ip_rep2_chr19.bam")
+cb_6wk_input_rep2_chr19 = read.BAM("../inst/extdata/cb_input_rep2_chr19.bam")
+cb_6wk_ip_rep2_chr19 = read.BAM("../inst/extdata/cb_ip_rep2_chr19.bam")
 
 # ### use the data
-usethis::use_data(cb_6wk_input_rep1_chr19)
-usethis::use_data(cb_6wk_ip_rep1_chr19)
-usethis::use_data(cb_6wk_input_rep2_chr19)
-usethis::use_data(cb_6wk_ip_rep2_chr19)
+usethis::use_data(cb_6wk_input_rep1_chr19, overwrite = TRUE)
+usethis::use_data(cb_6wk_ip_rep1_chr19, overwrite = TRUE)
+usethis::use_data(cb_6wk_input_rep2_chr19, overwrite = TRUE)
+usethis::use_data(cb_6wk_ip_rep2_chr19, overwrite = TRUE)
