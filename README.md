@@ -6,7 +6,7 @@ From GitHub:
 ```{r, eval = FALSE}
 install.packages("devtools") # if you have not installed "devtools" package
 library(devtools)
-install_github("https://github.com/ZhenxingGuo0015/TRES")
+install_github("https://github.com/ZhenxingGuo0015/datasetTRES")
 ```
 ### 2. data within it
 ```{r, eval= TRUE, echo = TRUE}
