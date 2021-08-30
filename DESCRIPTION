@@ -1,0 +1,17 @@
+Package: datasetTRES
+Type: Package
+Title: Data resource for package "TRESS"
+Version: 0.99.0
+Authors@R: c(person(given = "Zhenxing",
+                    family = "Guo",
+                    role = c("aut", "cre"),
+                    email = "zhenxing.guo@emory.edu"),
+            person(given = "Hao",
+                   family = "Wu",
+                   role = "ctb"))
+Description: Example m6A datasets from MeRIP-seq experiment
+biocViews: Sequencing, MethylSeq, RNASeq, PeakDetection, DataImport
+Depends: R (>= 4.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
